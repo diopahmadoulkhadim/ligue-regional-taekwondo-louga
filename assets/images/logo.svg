@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8252d"/>
+      <stop offset="100%" stop-color="#b01018"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer navy -->
+  <circle cx="100" cy="100" r="98" fill="#101828"/>
+  <!-- Gold ring -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#d9a441" stroke-width="4"/>
+  <!-- Red inner -->
+  <circle cx="100" cy="100" r="82" fill="url(#redGrad)"/>
+  <!-- Navy center -->
+  <circle cx="100" cy="100" r="58" fill="#101828"/>
+  <!-- Gold thin ring -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#d9a441" stroke-width="1.5" opacity="0.85"/>
+  <!-- TKD monogram -->
+  <text x="100" y="108" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffffff" letter-spacing="-1">TKD</text>
+  <!-- Small LOUGA under -->
+  <text x="100" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#d9a441" letter-spacing="2">LOUGA</text>
+</svg>

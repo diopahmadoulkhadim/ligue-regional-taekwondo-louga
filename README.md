@@ -19,7 +19,7 @@ Ouvrir `index.html` dans un navigateur ou utiliser Live Server dans VS Code.
 - `pages/` : pages internes (voir « Pages » ci-dessous)
 - `css/` : styles
 - `js/` : données et logique
-- `assets/images/` : images
+- `assets/images/` : images (placeholders + `photos/` pour les photos d’illustration)
 - `assets/documents/` : documents officiels
 
 ## Pack média (photos et événements)
@@ -35,6 +35,9 @@ Le placeholder « Photo à confirmer » disparaît automatiquement dès qu'au mo
 - `email` : email officiel. Utilisé par le formulaire si aucun WhatsApp n'est renseigné (ouvre la messagerie du visiteur).
 - `facebook` : lien de la page Facebook (pied de page et page Contact).
 - `afficherResultats` : `false` tant que les résultats/classements ne sont pas officiels (pages masquées, retirées du menu). Passer à `true` après validation, puis supprimer la ligne `<meta name="robots" content="noindex">` dans `pages/resultats.html` et `pages/classement.html`.
+
+## Fichiers SEO
+- `robots.txt` et `sitemap.xml` à la racine.
 
 ## Mise en ligne
 - Favicon et icône mobile : `assets/images/favicon.svg`, `apple-touch-icon.png`.
